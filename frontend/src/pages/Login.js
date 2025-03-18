@@ -29,7 +29,6 @@ const Login = () => {
 
     try {
       let res = await fetch("https://x-login-sign-up.vercel.app/auth/login", {
-        mode: 'no-cors',
         method: "POST",
         headers: {
           "Content-Type": "application/json",
