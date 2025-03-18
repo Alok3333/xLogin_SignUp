@@ -30,7 +30,7 @@ const SignUp = () => {
     }
 
     try {
-      let response = await fetch("http://localhost:8080/auth/signup", {
+      let response = await fetch("https://x-login-sign-up.vercel.app/auth/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
