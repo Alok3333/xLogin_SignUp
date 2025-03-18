@@ -13,7 +13,7 @@ const Home = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        let url = "http://localhost:8080/products";
+        let url = "https://x-login-sign-up.vercel.app/products";
         let res = await fetch(url, {
           headers: {
             Authorization: localStorage.getItem("token"),
